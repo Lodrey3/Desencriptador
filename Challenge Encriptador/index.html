@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>
+        <script src="app.js"></script>
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <img class="logo" src="source/Logo.png">
+        <div>
+            <textarea class="cajaTexto" id="mensajeUsuario" placeholder="Ingrese el Texto Aqui"></textarea>  
+            <button class="boton" id="botonEncriptar" onclick="codificar()">Encriptar</button>
+            <button class="boton" id="botonDesencriptar" onclick="decodificar()">Desencriptar</button>                  
+        </div>
+
+        <div> 
+            <p class="rectangulo"></p>
+            <img class="muñeco" src="source/Muñeco.png">
+            <p class="textos" id="sinTexto">Ningún mensaje fue<br>encontrado</br></p>
+            <p class="textos" id="ingresaTexto">Ingresa el texto que desees encriptar o<br>desencriptar.</br></p>            
+        </div>
+
+        <div>
+            <p id = 'mensajeFinal'>xd</p>
+            <button class="boton" id="botonCopiar" onclick="copiar()" disabled>Copiar</button>            
+        </div>
+
+    </body>
+</html>

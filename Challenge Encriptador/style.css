@@ -1,0 +1,140 @@
+body{
+    background: #F3F5FC;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:  "slnt" 0;
+}
+
+.logo{
+    position: relative;
+    display: block;
+    top:40px;
+    left:40px;
+
+}
+
+.cajaTexto{
+    font-family: inter;
+    border: none;
+    background: none;
+    position: absolute;
+    color: #0A3871;
+    width: 52.7%;
+    height: 55%;
+    top: 20%;
+    left: 12%;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 48px;
+    text-align: left;
+}
+
+::placeholder{
+    color: #0A3871;
+    font-family: inter;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.rectangulo{
+    background: #FFFFFF;
+    position: absolute;
+    width: 30%;
+    height: 90%;
+    top: 5%;
+    right: 2%;
+    border-radius: 32px;
+    box-shadow: 5px 5px 6px 0px #00000069;
+}
+
+.muñeco{
+    position: absolute;
+    width: 336px;
+    height: 304px;
+    top: 15%;
+    right: 4.25%;
+}
+
+
+#sinTexto{
+    position: absolute;
+    font-family: inter;
+    text-align: center;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 28.8px;
+    top: 70%;
+    right: 7%;
+    border-width: 1px;
+    border-color: #000000;
+}
+
+#ingresaTexto{
+    position: absolute;
+    font-family: inter;
+    text-align: center;
+    font-weight: 400;
+    line-height: 24px;
+    font-size: 16px;
+    bottom: 13%;
+    right: 5.6%;
+}
+
+.boton{
+    border-radius: 24px;
+    width: 25%;
+    height: 10%;
+    font-family: inter;
+    transition: 1;
+}
+
+.boton:hover{
+    transform: scale(1.05);
+}
+
+#botonEncriptar{
+    position: absolute;
+    background-color:#0A3871;
+    color: #FFFFFF;
+    border: none;
+    bottom: 10%;
+    left: 12%;
+}
+
+#botonDesencriptar{
+    position: absolute;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    font-weight: bold;
+    border-color: #0A3871;
+    bottom: 10%;
+    left: 40%;
+}
+
+#mensajeFinal{
+    position: absolute;
+    width: 25%;
+    height: 62%;
+    font-family: inter;
+    font-weight: 400;
+    top: 13%;
+    right: 4.3%;
+    word-break:keep-all;
+    display: none;
+    color: #0A3871;
+    line-height: 25px;
+    font-size: 21px;
+}
+
+#botonCopiar{
+    position: absolute;
+    bottom: 10%;
+    right: 4.25%;
+    background: none;
+    color: #0A3871;
+    border-color: #0A3871;
+    font-weight: bold;
+    display: none;
+}
